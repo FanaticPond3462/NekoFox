@@ -121,4 +121,5 @@ body{
     user-select: none;
     pointer-events: none;
     background: url(https://min-chi.material.jp/mc/materials/background-c/back_of_classroom/back_of_classroom_2.jpg);
+    background-size: cover;
 }
