@@ -1,0 +1,124 @@
+.object {
+    position: absolute;
+}
+
+.nabiku {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real_nabiku 3s ease-in-out infinite;
+}
+
+.nabiku2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real2_nabiku 3s ease-in-out infinite;
+}
+
+.nabiku3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real3_nabiku 3s ease-in-out infinite;
+}
+
+
+.nabiku0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real0_nabiku 3s ease-in-out infinite;
+}
+
+.kokyuu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real3_nabiku 4s linear infinite;
+}
+
+.kokyuu2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: real3_nabiku 4s linear reverse infinite;
+}
+
+@keyframes real0_nabiku {
+    0% {
+        transform: rotate3d(0, 0, 0, 80deg);
+    }
+
+    33% {
+        transform: rotate3d(0, 1, 1, 15deg);
+    }
+
+    66% {
+        transform: rotate3d(0, -1, -1, 15deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 0, 80deg);
+    }
+}
+
+@keyframes real_nabiku {
+    0% {
+        transform: rotate3d(0, 0, 0, 60deg);
+    }
+
+    33% {
+        transform: rotate3d(0, 1, 1, 10deg);
+    }
+
+    66% {
+        transform: rotate3d(0, -1, -1, 10deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 0, 60deg);
+    }
+}
+
+@keyframes real2_nabiku {
+    0% {
+        transform: rotate3d(0, 0, 0, 30deg);
+    }
+
+    33% {
+        transform: rotate3d(0, 1, 1, 5deg);
+    }
+
+    66% {
+        transform: rotate3d(0, -1, -1, 5deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 0, 30deg);
+    }
+}
+
+@keyframes real3_nabiku {
+    0% {
+        transform: rotate3d(0, 0, 0, 15deg);
+    }
+
+    33% {
+        transform: rotate3d(0, 1, 1, 3deg);
+    }
+
+    66% {
+        transform: rotate3d(0, -1, -1, 3deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 0, 15deg);
+    }
+}
+
+body{
+    user-select: none;
+    pointer-events: none;
+    background: url(https://min-chi.material.jp/mc/materials/background-c/back_of_classroom/back_of_classroom_2.jpg);
+}
